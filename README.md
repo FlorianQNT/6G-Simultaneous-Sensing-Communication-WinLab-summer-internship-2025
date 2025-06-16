@@ -11,9 +11,14 @@ Advisor:<br>
 
 The goal of this project is to be able to detect and classify object while using a camera and/or a radar.<br>
 
-We started by doing it only with a camera.<br>
+# We started by doing it only with a camera.<br>
 For this, we used the Deep-Learning algorithm called YOLO (You Only Look Once).<br>
-With the camera, we focused on detecting and classifying human and chair although it would work with every class from COCO.<br>
+YOLO was firstly created by Joseph Redmaon in 2015. He made 3 version.<br>
+The versions that came after are made by other researchers and we can find all version after YOLOv3 on ultralytics website.<br>
+The version we are using is YOLOv8 witch is available since january 2023.<br>
+This algorithm is trained on multiple dataset and is considered one of the best for real time object detection.<br>
+
+With the camera, we focused on detecting and classifying human and chair although it would work with every class from COCO dataset.<br>
 The camera that we used is a ZED 2i. It was on a desktop with those specs:<br>
 -CPU:Intel Core i9-14900KF 3.20GHz<br>
 -GPU:NVIDIA GeForce RTX 4080 SUPER 16Gb<br>
@@ -28,3 +33,8 @@ It was tried and worked on a laptop with those specs:<br>
 -Windows11 Home<br>
 
 The biggest difference between both version is that thanks to the ZED camera, we can have the distance between the object and the camera.<br>
+
+We tried with another dataset named OpenImagesv7. It works and has more class than yolo but it also impact the confidence for the classes.<br>
+For the same objects at the same place with both dataset, OpenImages was roughly 15% less confident.<br>
+This can be explained by the difference between the number of classes on both dataset:<br>
+COCO has 80 classes and OpenImagesv7 has 600 classes.<br>
