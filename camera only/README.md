@@ -22,3 +22,7 @@ and now you can test the install with this:<br>
 import pyzed.sl as sl<br>
 print(sl.Camera())<br>
 
+# To try to use it<br>
+If you are using a ZED camera, I recommand to start with ZED Depth Sensing.py<br>
+
+If you are using an integrated camere, you can start with either.<br>
