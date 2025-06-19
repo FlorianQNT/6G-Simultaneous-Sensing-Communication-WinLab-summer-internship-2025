@@ -25,6 +25,9 @@ model = YOLO("yolov8l-oiv7.pt")
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
+# You can find every class name on ultralytics website under "Dataset YAML" part
+# https://docs.ultralytics.com/datasets/detect/open-images-v7/#dataset-yaml
+
 # Get class names
 class_names = model.names  # dict: {id: 'class_name'}
 used_class_labels = ["Chair", "Man"]
