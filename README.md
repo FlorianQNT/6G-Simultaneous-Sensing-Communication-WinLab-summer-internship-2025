@@ -34,7 +34,7 @@ It was tried and worked on a laptop with those specs:<br>
 
 The biggest difference between both version is that thanks to the ZED camera, we can have the distance between the object and the camera.<br>
 
-We tried with another dataset named OpenImagesv7. It works and has more class than yolo but it also impact the confidence for the classes.<br>
+We tried with another dataset named OpenImagesv7. It works and has more class on yolo but it also impact the confidence for the classes.<br>
 For the same objects at the same place with both dataset, OpenImages was roughly 15% less confident.<br>
 This can be explained by the difference between the number of classes on both dataset:<br>
 COCO has 80 classes and OpenImagesv7 has 600 classes.<br>
