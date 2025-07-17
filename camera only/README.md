@@ -1,5 +1,5 @@
 # In this file you will find information about the programs in this folder like libraries and other.<br>
-<ins> All programs were made and tested on windows </ins><br>
+<ins> programs tested in different folders for different operating systems </ins><br>
 
 For the programs to works on windows, you need (command to install):<br>
 -pip (if you already have python installed python -m ensurepip --upgrade)<br>
