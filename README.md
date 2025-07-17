@@ -6,7 +6,7 @@ Intern:<br>
 -Florian QUINT<br>
 
 Advisor:<br>
--Yvan SESKAR<br>
+-Ivan SESKAR<br>
 -professor Narayan MANDAYAM<br>
 
 The goal of this project is to be able to detect and classify object while using a camera and/or a radar.<br>
@@ -38,3 +38,7 @@ We tried with another dataset named OpenImagesv7. It works and has more class on
 For the same objects at the same place with both dataset, OpenImages was roughly 15% less confident.<br>
 This can be explained by the difference between the number of classes on both dataset:<br>
 COCO has 80 classes and OpenImagesv7 has 600 classes.<br>
+
+# To continue this project, we added a radar<br>
+The radar that we used is an IBM 28GHz phased-array antenna module<br>
+For this radar, we are using the GR-mimo module made for GNU Radio.<br>
